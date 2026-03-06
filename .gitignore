@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+.env
+database.sqlite
+frontend/build/
+.npm-bin/
+nodejs/
+node.zip
+*.ps1

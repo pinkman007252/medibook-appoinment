@@ -1,0 +1,4 @@
+/* App.css - Component-specific styles not in index.css */
+.App {
+    min-height: 100vh;
+}
