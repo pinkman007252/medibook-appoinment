@@ -11,7 +11,11 @@ setupDatabase();
 const app = express();
 
 // Middleware
-app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
+const corsOptions = {
+    origin: process.env.NODE_ENV === 'production' ? true : 'http://localhost:3000',
+    credentials: true
+};
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use(morgan('dev'));
 
