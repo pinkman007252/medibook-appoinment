@@ -124,6 +124,8 @@ router.get('/my-appointments', protect, authorize('patient'), async (req, res) =
             queuePosition: a.queuePosition,
             status: a.status,
             reason: a.reason,
+            doctorNotes: a.doctorNotes,
+            prescription: a.prescription ? JSON.parse(a.prescription) : [],
             doctorId: {
                 _id: a.doc_id,
                 firstName: a.doc_first,

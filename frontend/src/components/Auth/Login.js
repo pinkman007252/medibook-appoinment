@@ -58,14 +58,6 @@ const Login = () => {
                     Don't have an account? <Link to="/register">Create Account</Link>
                 </div>
 
-                <div style={{ marginTop: '24px', padding: '16px', background: 'rgba(124,58,237,0.08)', border: '1px solid rgba(124,58,237,0.2)', borderRadius: '12px' }}>
-                    <p style={{ fontSize: '0.75rem', color: '#64748b', marginBottom: '8px', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Demo Credentials</p>
-                    <div style={{ fontSize: '0.8rem', color: '#94a3b8', lineHeight: '1.8' }}>
-                        <div>👤 Patient: <span style={{ color: '#a78bfa' }}>john.doe@email.com</span></div>
-                        <div>🩺 Doctor: <span style={{ color: '#67e8f9' }}>sarah.kumar@hospital.com</span></div>
-                        <div>🔑 Password: <span style={{ color: '#6ee7b7' }}>password123</span></div>
-                    </div>
-                </div>
             </div>
         </div>
     );

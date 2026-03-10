@@ -84,14 +84,6 @@ const seedData = async () => {
     }
 
     console.log('\n✅ Seed completed successfully!');
-    console.log('\n📋 Demo Credentials:');
-    console.log('   Doctors:');
-    doctorIds.forEach(dr => {
-        console.log(`   - ${dr.firstName} ${dr.lastName} (${dr.specialization}): ${dr.email} / password123`);
-    });
-    console.log('   Patients:');
-    console.log('   - john.doe@email.com / password123');
-    console.log('   - jane.smith@email.com / password123');
 
 };
 
